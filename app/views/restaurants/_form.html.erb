@@ -1,0 +1,8 @@
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%= f.input :category %>
+  <%= f.input :image_url, label: 'Image Category' %>
+  <%= f.submit 'Submit', class: 'btn btn-secondary text-white text-decoration-none px-3 py-1 mt-3' %>
+<% end %>
